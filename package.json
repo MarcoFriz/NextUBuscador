@@ -1,6 +1,6 @@
 {
   "name": "nextubuscador",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Usado como prueba final de backend, disponible en https://snhgames.com/nextubuscador/",
   "main": "/server/index.js",
   "scripts": {
@@ -13,5 +13,19 @@
   "dependencies": {
     "express": "^4.16.3",
     "http": "0.0.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarcoFriz/NextUBuscador.git"
+  },
+  "keywords": [
+    "NextU",
+    "Buscador",
+    "filtros"
+  ],
+  "bugs": {
+    "url": "https://github.com/MarcoFriz/NextUBuscador/issues"
+  },
+  "homepage": "https://github.com/MarcoFriz/NextUBuscador#readme"
 }
