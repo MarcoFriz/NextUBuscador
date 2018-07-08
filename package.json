@@ -5,7 +5,7 @@
   "main": "/server/index.js",
   "scripts": {
     "test": "nodemon server/",
-    "start": "forever start --uid nextubuscador --killSignal=SIGTERM -c nodemon server/",
+    "start": "forever start server/ --uid nextubuscador --killSignal=SIGTERM -c nodemon",
     "stop": "forever stop nextubuscador"
   },
   "author": "Marco Friz Palavecino",
