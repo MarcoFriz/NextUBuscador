@@ -4,8 +4,13 @@ var express = require('express'),
 
 var promise = require('es6-promise').Promise;
 
-
 module.exports = {
+  //type: ciudades|tipos|range|All
+  //[from: min value]
+  //[to: max value]
+  //[ciudad: filter by ciudad, * for all ciudades]
+  //[tipo: filter by tipo, * for all tipos]
+  //@return promise;
   getData: (type,from,to,ciudad,tipo)=>{
     var dataPath = __dirname+path.join("/data.json")
     return new promise((res,rej)=>{
