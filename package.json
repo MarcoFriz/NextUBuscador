@@ -1,0 +1,17 @@
+{
+  "name": "nextubuscador",
+  "version": "1.0.0",
+  "description": "Usado como prueba final de backend, disponible en https://snhgames.com/nextubuscador/",
+  "main": "/server/index.js",
+  "scripts": {
+    "test": "nodemon server/",
+    "start": "forever start --uid nextubuscador --killSignal=SIGTERM -c nodemon server/",
+    "stop": "forever stop nextubuscador"
+  },
+  "author": "Marco Friz Palavecino",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.3",
+    "http": "0.0.0"
+  }
+}
